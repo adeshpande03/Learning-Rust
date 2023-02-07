@@ -1,3 +1,6 @@
+mod types;
+mod strings;
 fn main() {
-    println!("Hello, world!");
+    //types::run();
+    strings::run();
 }
