@@ -1,5 +1,5 @@
+#![allow(dead_code, unused)]
 use std::mem;
-
 pub fn run() {
   let mut numbers: [i32; 4] = [1, 2, 3, 4];
   numbers[2] = 20;

@@ -1,4 +1,4 @@
-
+#![allow(dead_code, unused)]
 pub fn run() {
   let mut hello = String::from("Hello ");
   println!("Length: {}", hello.len());

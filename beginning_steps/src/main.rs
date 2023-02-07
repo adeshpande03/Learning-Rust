@@ -1,10 +1,11 @@
+#![allow(dead_code, unused)]
 // mod print;
 // mod vars;
 // mod types;
 // mod strings;
 // mod tuples;
 // mod arrays;
-// mod vectors;
+mod vectors;
 
 
 fn main() {
@@ -14,5 +15,5 @@ fn main() {
     // strings::run();
     // tuples::run();
     // arrays::run();
-    // vectors::run();
+    vectors::run();
 }

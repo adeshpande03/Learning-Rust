@@ -1,3 +1,4 @@
+#![allow(dead_code, unused)]
 pub fn run() {
   println!("Hello from the print.rs file");
   println!("{} is from {}", "Brad", "Mass");

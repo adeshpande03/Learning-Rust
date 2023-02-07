@@ -1,3 +1,4 @@
+#![allow(dead_code, unused)]
 pub fn run() {
   let x = 1;
   let y = 2.5;
