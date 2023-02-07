@@ -13,7 +13,12 @@ pub fn run()
     println!("{}", hi);
     println!("The capacity is {capacity}", capacity = capacity);
     hi.push('c');
-
-    
-    
+    println!("{}", hi);
+    let mut s: String = String::with_capacity(6);
+    s.push('a');
+    s.push('b');    
+    s.push_str("string");
+    let s_cap = s.capacity();
+    println!("{}", s_cap);
+    println!("{}", s);
 }
